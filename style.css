@@ -25,12 +25,20 @@
 	background-color: #555555;
 	padding: 5px;
 }
-.nav .link a{
+.nav .link li a {
 	font-family: Helvetica,Verdana;
 	font-size: 12pt;
-	color: #CCCCCC;
+	color: #AAAAAA;
+	text-decoration: underline;
+}
+
+.nav .link li {
+	font-family: Helvetica,Verdana;
+	font-size: 12pt;
+	color: #EEEEEE;
 	text-decoration: none;
 }
+
 .photo {
 	width: 300px;
 	height: 300px
@@ -38,8 +46,7 @@
 .textytext {
 	font-family: Helvetica,Verdana;
 	font-size: 12pt;
-	clear: right;
-	float: right;
+	float: left;
 }
 .content {
 	position: absolute;
@@ -53,13 +60,6 @@
 	position: absolute;
 	bottom: 10px;
 	width: 100%;
-}
-.canvas {
-	clear: left;
-	float: left;
-}
-#drawingCanvas {
-	border: 1px solid black;
 }
 ul li {
 	display: inline;
